@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6Vfu6CtvuNsqdxHswft6Z6BVXPSd2tOcoF7kdvXLDsctPW8y_') ;
+    background-size:100% ;
+    background-size: cover;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+  
+  }
+
+  .form_block{
+
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+
+  }
+
+  .login-box .a .b{
+    color: black;
+}
+    
+  
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+
+
+    }
+  }
+  
+
+
+ 

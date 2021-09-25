@@ -1,0 +1,132 @@
+
+.button_r {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #DEB887;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(219, 160, 160);
+  animation-name: animateBtn;
+  animation-duration: 6s;
+    
+}
+
+.button_r:hover {background-color: rgb(207, 170, 170)}
+
+.button_r:active {
+  background-color: 	#e4abab;
+  box-shadow: 0 5px rgb(209, 177, 177);
+  transform: translateY(4px);
+}
+           
+@keyframes animateBtn {
+ 0% {
+     opacity: 0;
+ }
+    
+  100% {
+      opacity: 1;
+  }
+}
+
+       .button_l {
+  display: inline-block;
+  padding: 50px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(170, 144, 144);
+  background-color: 	rgb(236, 136, 198);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(202, 160, 160);
+ animation-name: animateBtn;
+  animation-duration: 11s;
+}
+
+.button_l:hover {background-color:#666}
+
+.button_l:active {
+  background-color: 	#85a2bd;
+  box-shadow: 0 5px rgb(169, 187, 226);
+  transform: translateY(4px);
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('Capture.PNG') no-repeat;
+  background-size: cover;
+}
+.login-box{
+  width: 310px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150%,-50%);
+  color: rgb(204, 207, 218);
+}
+
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.login-box h2{
+  float: right;
+  font-size: 10px;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 80%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(199, 99, 154);
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+  color: rgb(199, 150, 231);
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #637DC7;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.box{
+ width: 100%;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid rgb(170, 108, 155);
+}
+
+       
+       
+   
+       
+       
+ 
+       
+       
+ 
+
